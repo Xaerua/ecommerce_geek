@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+
+  font-family: 'Poppins', sans-serif;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+ul {
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+}
+.navbar ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: x-large;
+}
+li {
+  list-style-type: none;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.shooping-car {
+  position: relative;
+}
+.img-car {
+  width: 40px;
+  height: 40px;
+}
+.number {
+  position: absolute;
+  top: -10px;
+  right: -20px;
+  width: 30px;
+  height: 30px;
+  background-color: orangered;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.number-car {
+  color: #fff;
+}
